@@ -1,0 +1,69 @@
+// base color
+$blue:#324157;
+$light-blue:#3A71A8;
+$red:#C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow:#FEC171;
+$panGreen: #30B08F;
+
+// sidebar
+$menuText:#bfcbd9;
+$menuActiveText:#409EFF;
+$subMenuActiveText:#f4f4f5; // https://github.com/ElemeFE/element/issues/12951
+$menuBg:#304156;
+$menuHover:#263445;
+$subMenuBg:#1f2d3d;
+$subMenuHover:#001528;
+$sideBarWidth: 210px;
+
+// 基础颜色值
+// base color
+$font01:#242424;
+$font02:#b9b9b9;
+$font03:#a8a8a8;
+$font04:#5b9efe;
+$font05:#ffffff;
+$font06:#d56278;
+$font07:#d43434;
+$font08:#FFBF00;
+$font09:#2E2E2E;
+$font10:#5BD171;
+$font11:#2C92F6;
+$font12:#001529;
+$font13:#975FE4;
+$font14:#1D1E23;
+$font15:#A4784A;
+$font16:#42ACE2;
+$font17:#17233d;
+$font18:#515a6e;
+$font19:#808695;
+$font20:#c5c8ce;
+$font21:#dcdee2;
+$font22:#e8eaec;
+$font23:#f8f8f9;
+$font24: #d4514c;
+$font25: #597EF7;
+
+$font26: #36a3f7;
+$font27: #f4516c;
+
+// base size
+$fsizeA:29px;
+$fsizeB:17px;
+$fsizeC:13px;
+$fsizeD:12px;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+}
