@@ -440,7 +440,7 @@ export default {
       host : 'http://',
       // 控制表格单格宽度
       formLabelWidth : '120px',
-      // 导航列表：全部导航，每个导航显示前100个文章
+      // 导航列表：全部导航，每个导航显示前100个文章cle
       navs : {
         // 分页
         total : 0,
